@@ -81,8 +81,8 @@ We break down work by the following categories, we also make sure that any work 
   - __[A survey of ocean simulation and rendering techniques in computer graphics](https://arxiv.org/pdf/1109.6494.pdf)__, Darles et al., 2011
 
 ## Wave Theory
-  - [What determines the speed of waves in water?](https://physics.stackexchange.com/questions/121327/what-determines-the-speed-of-waves-in-water/121330#121330), Physics Stackexchange: Longer wavelengths travel faster. For a swell, longest wavelengths arrive first:
-  - [Wind wave](https://en.wikipedia.org/wiki/Wind_wave), Wikipedia
+  - __[What determines the speed of waves in water?](https://physics.stackexchange.com/questions/121327/what-determines-the-speed-of-waves-in-water/121330#121330)__, Physics Stackexchange: Longer wavelengths travel faster. For a swell, longest wavelengths arrive first:
+  - __[Wind wave](https://en.wikipedia.org/wiki/Wind_wave)__, Wikipedia
 <!--
   - https://topex.ucsd.edu/ps/trujillo_waves.pdf : Great text about water waves of all types:
   - http://www.dartmouth.edu/~cushman/books/EFM/chap4.pdf : Nice chapter on water wave phenomena, shows pressure profile of wind travelling over and obstacle.
