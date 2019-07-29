@@ -4,18 +4,80 @@ Here's a list of links and references to various pieces of research/games/system
 
 If you know of an interesting example of that is missing from this list, please create an issue or pull request!
 
-### Core work
+## Category Breakdown
 
-* A classic - Simulating Ocean Water - Tessendorf - has iWave approach for interactive apps: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.5567&rep=rep1&type=pdf
-* Also from tessendorf: https://people.cs.clemson.edu/~jtessen/papers_files/Interactive_Water_Surfaces.pdf
-* Great thesis about implementing water sim into frostbite: http://www.dice.se/wp-content/uploads/2014/12/water-interaction-ottosson_bjorn.pdf
-* Rigorous follow up work to Ottosson: https://gmrv.es/Publications/2016/CMTKPO16/main.pdf
-* Water sim on (fixed) quad tree, talks about some of the issues with this: https://pdfs.semanticscholar.org/a3c5/5aeda63895d846c38ae23e921cec7320f584.pdf
-* Strugar does multiple overlapping sims: article: http://vertexasylum.com/2010/10/30/gpu-based-water-simulator-thingie/ , video: https://www.youtube.com/watch?time_continue=20&v=jrhjxudnMNg
-* GDC course notes from matthias mueller fischer: http://matthias-mueller-fischer.ch/talks/GDC2008.pdf
-* Slightly old list of CG water references: http://vterrain.org/Water/
-* Mueller - swe + splashes, ripples - nice results: https://pdfs.semanticscholar.org/e97f/38cb774c96aaf1c359d8331695efa3b2c26c.pdf , video: https://www.youtube.com/watch?v=bojdpqi2l_o
-* Gomez 2000 - Interactive Simulation of Water Surfaces - Game Programming Gems
+We break down work by the following categories, we also make sure that any work which falls under multiple categories can be found under all of them.
+
+  - [Animated Waves](#animated-waves)
+    - [FFT](#fft)
+    - [Gerstner Waves](#gerstner-waves)
+    - [Wave Particles](#wave-particles)
+  - [Dynamic Waves](#dynamic-waves)
+    - [Eularian](#eularian-dynamic-waves)
+    - [Lagrangian](#lagrangian-dynamic-waves)
+    - [Hybrid](#hybrid-dynamic-waves)
+    - [Other](#other-dynamic-waves)
+  - [Meshing](#meshing)
+  - [Foam](#foam)
+  - [Flow](#flow)
+  - [Libraries and Systems](#libraries-and-systems)
+  - [Collations](#collations), other places where people have gathered references to water rendering together
+  <!-- TODO
+  - [3D Sims](#3d-sims)
+    - [Eularian](#eularian-3d-sims)
+    - [Lagrangian](#lagrangian-3d-sims)
+    -->
+
+
+## Animated Waves
+
+### FFT
+  - __[Simulating Ocean Water](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.5567&rep=rep1&type=pdf)__, Tessendorf, 2001
+
+### Gerstner Waves
+  - __[Simulating Ocean Water](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.5567&rep=rep1&type=pdf)__, Tessendorf, 2001
+
+### Wave Particles
+  - __[Wave Particles](http://www.cemyuksel.com/research/waveparticles/)__, Yuksel, 2007
+  - __[Water Technology of Uncharted](https://cgzoo.files.wordpress.com/2012/04/water-technology-of-uncharted-gdc-2012.pdf)__, Gonzalez-Ochoa & Holder, 2012
+  - __[Rendering Rapids in Uncharted 4](http://advances.realtimerendering.com/s2016/Rendering%20rapids%20in%20Uncharted%204.pptx)__, Gonzalez-Ochoa, 2016
+  - __[Water Surface Wavelets](http://visualcomputing.ist.ac.at/publications/2018/WSW/)__, Jeschke et al., 2018
+
+## Dynamic Waves
+
+### Eularian Dynamic Waves
+  - __[Simulating Ocean Water](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.5567&rep=rep1&type=pdf)__, Tessendorf, 2001
+  - __[Real-time Interactive Water Waves](http://www.dice.se/wp-content/uploads/2014/12/water-interaction-ottosson_bjorn.pdf)__, Ottosson
+  - __[Dispersion Kernels for Water Wave Simulation](https://gmrv.es/Publications/2016/CMTKPO16/main.pdf)__, Canabal et al., 2016
+  - __[Real-Time Large Scale Fluids for Games](https://pdfs.semanticscholar.org/a3c5/5aeda63895d846c38ae23e921cec7320f584.pdf)__, Kallin
+  - __[Fast Water Simulation for Games Using Height Fields](http://matthias-mueller-fischer.ch/talks/GDC2008.pdf)__, Müller-Fischer, 2008
+
+### Lagrangian Dynamic Waves
+  - __[Wave Particles](http://www.cemyuksel.com/research/waveparticles/)__, Yuksel, 2007
+  - __[Water Surface Wavelets](http://visualcomputing.ist.ac.at/publications/2018/WSW/)__, Jeschke et al., 2018
+
+### Hybrid Dynamic Waves
+  - __[Real-time Simulation of Large Bodies of Water with Small Scale Details](https://www.semanticscholar.org/paper/Real-time-Simulation-of-Large-Bodies-of-Water-with-Chentanez-M%C3%BCller/8b89fb1c664b742271e0f19a9efe8492f14074f5)__, Chentanez & Müller-Fischer, 2010. _[Video](https://www.youtube.com/watch?v=bojdpqi2l_o)_
+
+### Other Dynamic Waves
+  - __Interactive Simulation of Water Surfaces__, Gomez, 2000. Found in _Game Programming Gems_.
+
+## Meshing
+  - __[Water Technology of Uncharted](https://cgzoo.files.wordpress.com/2012/04/water-technology-of-uncharted-gdc-2012.pdf)__, Gonzalez-Ochoa & Holder, 2012
+
+## Foam
+  - __[Rendering Rapids in Uncharted 4](http://advances.realtimerendering.com/s2016/Rendering%20rapids%20in%20Uncharted%204.pptx)__, Gonzalez-Ochoa, 2016
+
+## Flow
+  - __[Rendering Rapids in Uncharted 4](http://advances.realtimerendering.com/s2016/Rendering%20rapids%20in%20Uncharted%204.pptx)__, Gonzalez-Ochoa, 2016
+
+## Libraries and Systems
+  - __[Hydrax](https://github.com/imperative/CommunityHydrax)__, Open-Source plugin for OGRE
+
+## Collations
+  - __[VTP](http://vterrain.org/Water/)__
+
+<!--TODO: Add and organise these
 * Real-Time Open Water Environments with Interacting Objects - Cords and Staadt. Discusses/justifies multiple sims. Divides collision shapes into particles. - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.2833&rep=rep1&type=pdf
 * Hydrax - open source ocean plug-in for OGRE - https://github.com/imperative/CommunityHydrax
 * Survey ocean simulation techniques - 2011 - https://arxiv.org/pdf/1109.6494.pdf
@@ -63,3 +125,4 @@ If you know of an interesting example of that is missing from this list, please 
 
 * Bubble sim. Hill spherical vortex - irrotational flow around sphere. http://matthias-mueller-fischer.ch/publications/bubbles.pdf
 
+-->
