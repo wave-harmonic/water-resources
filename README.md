@@ -23,6 +23,7 @@ We break down work by the following categories, we also make sure that any work 
   - [Libraries and Systems](#libraries-and-systems)
   - [Collations and Surveys](#collations-and-surveys)
   - [Wave Theory](#wave-theory)
+  - [Lighting and Rendering](#lighting-and-rendering)
   <!-- TODO
   - [3D Sims](#3d-sims)
     - [Eularian](#eularian-3d-sims)
@@ -89,6 +90,9 @@ We break down work by the following categories, we also make sure that any work 
   - __[Essentials of Oceanography](https://topex.ucsd.edu/ps/trujillo_waves.pdf)__, Thurman & Trujilo: Great text about water waves of all types.
   - __[Environmental Fluid Mechanics, Chapter 4: Waves](http://www.dartmouth.edu/~cushman/books/EFM/chap4.pdf)__, Cushman-Roisin, 2019: Nice chapter on water wave phenomena, shows pressure profile of wind travelling over and obstacle.
 
+## Lighting and Rendering
+  - __[Fresnel Equations (in RGB) Considered Harmful]__(http://renderwonk.com/publications/mam2019/naty_mam2019.pdf), Hoffman, A presentation on why in many scenarios Schlick's Approximation is preferable to the Fresnel Equations.
+
 <!--
   - http://www-eaps.mit.edu/~rap/courses/12333_notes/dispersion.pdf : Useful notes on dispersive and non-dispersive waves.
   - https://thayer.dartmouth.edu/~d30345d/books/EFM/chap4.pdf : More notes on waves.
@@ -134,3 +138,4 @@ We break down work by the following categories, we also make sure that any work 
 * Bubble sim. Hill spherical vortex - irrotational flow around sphere. http://matthias-mueller-fischer.ch/publications/bubbles.pdf
 
 -->
+
