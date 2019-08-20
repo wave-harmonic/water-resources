@@ -91,7 +91,7 @@ We break down work by the following categories, we also make sure that any work 
   - __[Environmental Fluid Mechanics, Chapter 4: Waves](http://www.dartmouth.edu/~cushman/books/EFM/chap4.pdf)__, Cushman-Roisin, 2019: Nice chapter on water wave phenomena, shows pressure profile of wind travelling over and obstacle.
 
 ## Lighting and Rendering
-  - __[Fresnel Equations (in RGB) Considered Harmful]__(http://renderwonk.com/publications/mam2019/naty_mam2019.pdf), Hoffman, A presentation on why in many scenarios Schlick's Approximation is preferable to the Fresnel Equations.
+  - __[Fresnel Equations (in RGB) Considered Harmful](http://renderwonk.com/publications/mam2019/naty_mam2019.pdf)__, Hoffman, A presentation on why in many scenarios Schlick's Approximation is preferable to the Fresnel Equations.
 
 <!--
   - http://www-eaps.mit.edu/~rap/courses/12333_notes/dispersion.pdf : Useful notes on dispersive and non-dispersive waves.
