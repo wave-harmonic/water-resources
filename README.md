@@ -24,6 +24,7 @@ We break down work by the following categories, we also make sure that any work 
   - [Collations and Surveys](#collations-and-surveys)
   - [Wave Theory](#wave-theory)
   - [Lighting and Rendering](#lighting-and-rendering)
+  - [Shorelines](#shorelines)
   <!-- TODO
   - [3D Sims](#3d-sims)
     - [Eularian](#eularian-3d-sims)
@@ -69,9 +70,10 @@ We break down work by the following categories, we also make sure that any work 
 
 ## Meshing
   - __[Water Technology of Uncharted](https://cgzoo.files.wordpress.com/2012/04/water-technology-of-uncharted-gdc-2012.pdf)__, Gonzalez-Ochoa & Holder, 2012
-
+  - __[Ocean simulation and rendering in War Thunder](http://developer.download.nvidia.com/assets/gameworks/downloads/regular/events/cgdc15/CGDC2015_ocean_simulation_en.pdf)__, Tcheblokov, 2015
 ## Foam
   - __[Rendering Rapids in Uncharted 4](http://advances.realtimerendering.com/s2016/Rendering%20rapids%20in%20Uncharted%204.pptx)__, Gonzalez-Ochoa, 2016
+  - __[Ocean simulation and rendering in War Thunder](http://developer.download.nvidia.com/assets/gameworks/downloads/regular/events/cgdc15/CGDC2015_ocean_simulation_en.pdf)__, Tcheblokov, 2015
 
 ## Flow
   - __[Water Technology of Uncharted](https://cgzoo.files.wordpress.com/2012/04/water-technology-of-uncharted-gdc-2012.pdf)__, Gonzalez-Ochoa & Holder, 2012: Normal-map scrolling technique used to render rivers in Uncharted: Drake's Fortune.
@@ -92,6 +94,10 @@ We break down work by the following categories, we also make sure that any work 
 
 ## Lighting and Rendering
   - __[Fresnel Equations (in RGB) Considered Harmful](http://renderwonk.com/publications/mam2019/naty_mam2019.pdf)__, Hoffman, A presentation on why in many scenarios Schlick's Approximation is preferable to the Fresnel Equations.
+  - __[Fresnel Equations, Schlick Approximation, Metals, and Dielectrics](http://psgraphics.blogspot.com/2020/03/fresnel-equations-schlick-approximation.html)__ Shirley, 2020
+
+## Shorelines
+  - __[Ocean simulation and rendering in War Thunder](http://developer.download.nvidia.com/assets/gameworks/downloads/regular/events/cgdc15/CGDC2015_ocean_simulation_en.pdf)__, Tcheblokov, 2015
 
 <!--
   - http://www-eaps.mit.edu/~rap/courses/12333_notes/dispersion.pdf : Useful notes on dispersive and non-dispersive waves.
