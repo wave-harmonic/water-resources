@@ -98,6 +98,13 @@ We break down work by the following categories, we also make sure that any work 
 
 ## Shorelines
   - __[Ocean simulation and rendering in War Thunder](http://developer.download.nvidia.com/assets/gameworks/downloads/regular/events/cgdc15/CGDC2015_ocean_simulation_en.pdf)__, Tcheblokov, 2015
+  - __[Unity hackweek crashing waves](https://twitter.com/greje656/status/1276611073077108736)__, @greje656, 2020
+  - __[Moana: Crashing Waves](https://disney-animation.s3.amazonaws.com/uploads/production/publication_asset/164/asset/Moana_Crashing_Waves.pdf)__, Byun & Stomakhin, 2017
+  - __[Creating Real-Time Oceans for Call of Duty: WWII](https://vimeo.com/261901539)__, Vitalone, 2018
+
+## Uncagetorised
+  - __[Sea Surface Visualization in World of Warships](https://wargaming.com/en/news/siggraph-2016/)__, Kryachko, 2016
+  - __[A survey of ocean simulation and rendering techniques in computer graphics](https://arxiv.org/pdf/1109.6494.pdf)__, Darles et al., 2011
 
 <!--
   - http://www-eaps.mit.edu/~rap/courses/12333_notes/dispersion.pdf : Useful notes on dispersive and non-dispersive waves.
